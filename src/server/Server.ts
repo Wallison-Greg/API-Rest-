@@ -1,7 +1,7 @@
 import express from "express";
 import { router } from "./routes"; //rotas
 import 'dotenv/config'; //variaveis ambiente
-
+import './shared/services/TradutorYup'
 
 const server = express();
 
